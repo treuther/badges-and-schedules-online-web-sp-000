@@ -16,5 +16,6 @@ end
 require "pry"
 def assign_rooms(name)
   attendees.collect_with_index {|list, index| puts "#{list}:#{index}"}
+  attendees
 end
 binding.pry
