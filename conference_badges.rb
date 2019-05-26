@@ -17,5 +17,5 @@ end
 def assign_rooms(attendees)
   phrase = phrase.new
   attendees.map_with_index {|list, index|
-  phrase[item] = index}
+  phrase[list] = index}
 end
