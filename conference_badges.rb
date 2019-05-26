@@ -23,6 +23,6 @@ end
 # end
 
 def assign_rooms(attendees)
-  attendees.each_with_index(1) {|list, index|}
+  attendees.map.with_index(1) {|list, index|}
   attendees
 end
