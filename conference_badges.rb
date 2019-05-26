@@ -24,5 +24,7 @@ end
 
 def assign_rooms(attendees)
   assignment = []
-  attendees.map.with_index(1) {|list, index|}
+  attendees.map.with_index(1) {|list, index|
+    "Hello, #{list}! You'll be assigned to room #{index}!"
+  }
 end
