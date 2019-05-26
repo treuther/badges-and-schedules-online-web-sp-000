@@ -20,6 +20,6 @@ def assign_rooms(attendees)
   attendees.each_with_index {|list, index| puts "#{list}:#{index}"}
 end
 
-assign_rooms(attendees)
+assign_rooms(list)
 
 binding.pry
