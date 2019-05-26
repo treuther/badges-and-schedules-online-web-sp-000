@@ -16,4 +16,5 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index {|list, index| puts "#{list} is with #{index}"}
+  attendees
 end
