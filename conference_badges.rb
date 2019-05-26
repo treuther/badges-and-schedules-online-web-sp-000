@@ -10,8 +10,12 @@ def batch_badge_creator(attendees)
   end
 end
 
+require "pry"
+
 def assign_rooms(attendees)
   room_assignments = []
   attendees.each_with_index {|list, index| room_assignments << "Hello, #{list}! You'll be assigned to room #{index}!"}
   attendees
 end
+
+binding.pry
