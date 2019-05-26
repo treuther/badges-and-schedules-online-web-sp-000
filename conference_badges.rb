@@ -17,4 +17,3 @@ end
 def assign_rooms(attendees)
   attendees.collect_with_index {|list, index| puts "#{list}:#{index}"}
 end
-
