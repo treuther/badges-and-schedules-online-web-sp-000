@@ -23,5 +23,5 @@ end
 # end
 
 def assign_rooms(attendees)
-  attendees.each_with_index {|list, index|}
+  attendees.each_with_index(1) {|list, index|}
 end
