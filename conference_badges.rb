@@ -5,11 +5,19 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  created_badges = []
-  message = "Hello, my name is #{i}"
-  attendees.each { |i| message << i}
-  message
+  message = "Hello, my name is #{list}."
+  attendees.each do |list|
+    message << list
+    message
+  end
 end
+
+# def batch_badge_creator(attendees)
+#   created_badges = []
+#   message = "Hello, my name is #{i}"
+#   attendees.each { |i| message << i}
+#   message
+# end
 
 # def square_array(array)
 #   new_array = []
