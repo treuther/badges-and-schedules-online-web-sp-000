@@ -24,5 +24,4 @@ end
 
 def assign_rooms(attendees)
   attendees.map.with_index(1) {|list, index|}
-  attendees
 end
