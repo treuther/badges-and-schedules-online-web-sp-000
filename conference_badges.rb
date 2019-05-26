@@ -8,7 +8,7 @@ def batch_badge_creator(attendees)
   created_badges = []
   message = "Hello, my name is #{i}"
   attendees.each {|i| created_badges << message}
-  end
+
 end
 
 # def square_array(array)
