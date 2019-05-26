@@ -14,12 +14,8 @@ end
 #   attendees.each_with_index {|list, index| "Hello, #{list}! You'll be assigned to room #{index}!"}
 # end
 
-require "pry"
-
 def assign_rooms(attendees)
   attendees.each_with_index {|list, index| puts "#{list}:#{index}"}
 end
 
-assign_rooms(list)
 
-binding.pry
