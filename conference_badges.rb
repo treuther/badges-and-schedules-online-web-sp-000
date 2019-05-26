@@ -23,5 +23,6 @@ end
 # end
 
 def assign_rooms(attendees)
+  assignment = []
   attendees.map.with_index(1) {|list, index|}
 end
